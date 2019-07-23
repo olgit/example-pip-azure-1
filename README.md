@@ -9,5 +9,5 @@ Shows a working setup for using Black Duck CoPilot to analyze the risk of projec
 The `azure-pipelines.yml` file has been modified to upload the generated data to Black Duck CoPilot:
 
 ```yaml
-- script: bash <(curl -s https://copilot-valid.blackducksoftware.com/ci/azure/scripts/upload)
+- script: bash <(curl -s https://copilot-test.blackducksoftware.com/ci/azure/scripts/upload)
 ```
