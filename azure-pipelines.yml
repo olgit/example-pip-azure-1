@@ -22,4 +22,4 @@ jobs:
   - script: python setup.py install
     displayName: 'Install dependencies'
 
-  - script: bash <(curl -s https://copilot.blackducksoftware.com/ci/azure/scripts/upload)
+  - script: bash <(curl -s https://copilot-test.blackducksoftware.com/ci/azure/scripts/upload)
